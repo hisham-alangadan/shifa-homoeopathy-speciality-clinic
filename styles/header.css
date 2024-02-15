@@ -1,5 +1,16 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     margin: 0;
+    background-color: rgb(230, 251, 230);
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 .header {
@@ -17,7 +28,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-right: 20px;
-    width: 600px;
+    width: 700px;
 }
 
 .logo {
@@ -30,10 +41,10 @@ body {
 }
 
 .nav-section p, .nav-section img{
-    padding: 20px;
+    padding: 10px;
     border-radius: 50px;
 }
 
-.nav-section p:hover, .nav-section img:hover{
+.nav-section p:hover {
     background-color: rgb(18, 192, 154);
 }
