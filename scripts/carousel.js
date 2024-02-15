@@ -30,7 +30,7 @@ function hello() {
 }
 
 function displayCarousel() {
-    document.querySelector('.cleft').innerHTML = `<img src="/images/${photos[carouselRiders[0]]}" alt="${photos[carouselRiders[0]]}" onclick="carouselLeft()">`;
-    document.querySelector('.cmiddle').innerHTML = `<img src="/images/${photos[carouselRiders[1]]}" alt="${photos[carouselRiders[1]]}">`;
-    document.querySelector('.cright').innerHTML = `<img src="/images/${photos[carouselRiders[2]]}" alt="${photos[carouselRiders[2]]}" onclick="carouselRight()">`;
+    document.querySelector('.cleft').innerHTML = `<img src="./images/${photos[carouselRiders[0]]}" alt="${photos[carouselRiders[0]]}" onclick="carouselLeft()">`;
+    document.querySelector('.cmiddle').innerHTML = `<img src="./images/${photos[carouselRiders[1]]}" alt="${photos[carouselRiders[1]]}">`;
+    document.querySelector('.cright').innerHTML = `<img src="./images/${photos[carouselRiders[2]]}" alt="${photos[carouselRiders[2]]}" onclick="carouselRight()">`;
 }
