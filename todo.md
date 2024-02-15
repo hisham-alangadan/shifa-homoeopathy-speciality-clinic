@@ -1,0 +1,2 @@
+- sort out favicon
+- add footer
